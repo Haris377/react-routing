@@ -66,8 +66,23 @@ class App extends Component {
         )}/>
         </div>
       </Router>
+
+
+      // <Router>
+      //   <div>
+          
+          
+      //     <ul>
+      //       <li><Navlink exact to="/about">About</Navlink></li>
+      //       <li><Navlink exact to="/home">Home</Navlink></li>
+      //     </ul>
+      //     <Route path="/about" render={()=>{return <h1>Welcome About</h1>}}/>
+      //     <Route path="/home" render={()=>{return <h1>Welcome Home</h1>}}/>
+      //   </div>
+      // </Router>
     );
   }
 }
+
 
 export default App;
